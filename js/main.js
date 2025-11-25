@@ -52,7 +52,7 @@ function createProjectCard(index, projectData) {
   // Imagen
   const img = document.createElement('img');
   img.className = 'project-image';
-  img.src = `./assets/photos/${projectData.image}`;
+  img.src = `assets/photos/${projectData.image}`;
   img.alt = `Photo ${projectData.number}`;
   img.loading = 'lazy';
   
